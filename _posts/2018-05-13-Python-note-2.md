@@ -2,6 +2,7 @@
 layout: post
 title: Python学习笔记（二）
 date: 2018-05-13 
+comments: true
 tags: python   
 ---
 

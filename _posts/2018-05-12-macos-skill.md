@@ -2,6 +2,7 @@
 layout: post
 title: macOS技巧
 date: 2018-05-12 
+comments: true
 tags: macOS  
 ---
 ### 如何解除软件来源打开限制

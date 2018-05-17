@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Python学习笔记（一）
-date: 2018-05-12 
+date: 2018-05-12
+comments: true 
 tags: python   
 ---
 ### 数学函数

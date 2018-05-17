@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 微信公众平台开发记录
+comments: true
 date: 2018-04-22 
 tags: 微信开发 PHP
 ---

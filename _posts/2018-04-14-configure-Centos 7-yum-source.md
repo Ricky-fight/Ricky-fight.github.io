@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 超简单 CentOS 7 配置阿里云yum源
 date: 2018-04-14 21:58:00 
 tags: 运维
