@@ -14,10 +14,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block; 
+}
+article {
+    font-size: 1.1em;
+}
 
 body {
   line-height: 1; 
+
 }
 
 ol, ul {
@@ -86,7 +91,7 @@ p a {
 }
 
 a:hover {
-  color: #0000CD;
+  color: #FF9999;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
@@ -134,8 +139,14 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2em; 
+  font-size: 1.2em;
+  font-weight: bold;
   padding: 6px 15px;
+  /*标题底部横线*/
+  border-bottom: 1px solid #8c8c8c;
+  padding: 0 5% 2px 0;
+  display: inline-block;
+  border-image: -moz-linear-gradient(left, #8c8c8c, rgba(140,140,140,0)) 30 30;
 }
 
 h5 {
@@ -149,10 +160,13 @@ p {
 }
 
 strong {
-  font-weight: bold; }
+  font-weight: bold; 
+  color:#2780e3;
+  padding:2px}
 
 em {
-  font-style: italic; }
+  font-style: italic;
+  color:#2780e3;}
 
 blockquote {
   padding-top: 10px;
@@ -215,7 +229,7 @@ table {
   text-align: center;
   line-height: 40px;
   border: 2px solid #363636;
-  width: 90%;
+  width: 50%;
   margin: 50px auto; }
 
 thead tr:first-child {
@@ -472,17 +486,18 @@ img::-moz-selection {
   }*/
 
   .post img {
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 50%;
+    margin: 20px auto;
     border-radius: 3px;
     text-align: center;
-    display: block; }
+    display: block;
+    box-shadow: 0px 5px 10px 5px #ddd; }
   .post pre {
     width: 95%;
     overflow: auto; }
   .post hr {
     display: block;
-    width: 30%;
+    width: 90%;
     margin: 2em 0;
     border-top: 1px solid #DDDDDD; }
 

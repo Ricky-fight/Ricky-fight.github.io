@@ -20,8 +20,8 @@ P.S. 如果只是为了测试实验用可以不用费力气注册一个公众号
 1. msg.php  
 	实现`WeixinMessage`类和`ReceiveTextMsg()`方法,用接收POST+XML包请求的方式获取消息文本，如果消息匹配某个特定的值比如`StarStudio`就执行接下来的邮件模块。
 	
-	```php
-	<?php
+```php
+<?php
 //接收微信服务器发过来的参数
 //参数	        |   描述
 //--------------------------------------
@@ -67,24 +67,23 @@ class WeixinMessage
 
 
 ?>
-
-	```
+```
 2. index.php  
 邮件部分使用比较常用的[PHPmailer][3],如果没有安装[composer][4]的话需要安装一下，
 composer是一个PHP包管理器，类似pip，它依托于`Packagist`平台集成了大量的轮子供PHP开发者使用。
 CentOS命令如下：
 
-```
+```bash
 wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79a38a5bc45324414a6b1f9df2/web/installer -O - -q | php -- --quiet
 ```
 将`composer.pchar`下载到网站的root目录，运行以下命令来获取PHPMailer：
 
-```
+```bash
 php composer.pchar require PHPMailer/PHPMailer
 ```
 等待一段时间，terminal最后两行显示如下信息就安装成功了：）
 
-```
+```bash
 Writing lock file
 Generating autoload file
 ```

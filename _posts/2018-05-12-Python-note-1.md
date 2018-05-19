@@ -26,12 +26,12 @@ tags: python
 - 要了解其他的命令，请参阅“Python库参考手册”的相关部分（ [module turtle](https://docs.python.org/3/library/turtle.html)）。
 
 #### e.g. 尝试画一个正八边形
-<pre class="line-numbers" data-start="1"><code class="language-python">
+```python
 from turtle import *
 for i in range(8):
 	fd(100)
 	lt(45)
-</code></pre>
+```
 效果如下：
 ![](/assets/turtle.png)
 ### 字符串
