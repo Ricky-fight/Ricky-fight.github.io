@@ -7,7 +7,7 @@ tags: mysql pymysql
 ---
 > 参考自 [William_Dong@CSDN][william]  
 
-
+[William_Dong@CSDN][william] 
 使用的是python3.6+pymysql+mysql8.0
 
 在cmd命令行直接输入mysql回车出现：`ERROR 1045 (28000): Access denied for user 'ODBC'@'localhost' (using password: NO)`
