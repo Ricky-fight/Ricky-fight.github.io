@@ -5,7 +5,7 @@ date: 2018-05-19
 comments: true 
 tags: mysql pymysql  
 ---
-> 参考自 [William_Dong@CSDN][1]  
+> 参考自 [William_Dong@CSDN][william]  
 
 
 使用的是python3.6+pymysql+mysql8.0
@@ -94,4 +94,5 @@ pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' 
 DONE! 
 
 这时再跑下python脚本就可以连接了。
-[1]: https://blog.csdn.net/dongweionly/article/details/80273095
+
+[william]: https://blog.csdn.net/dongweionly/article/details/80273095
