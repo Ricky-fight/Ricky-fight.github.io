@@ -31,5 +31,5 @@ tags: python
 4. crontab在我电脑上设置定时运行脚本
 
 
-[pagestruct]: ../assets/pagestruct.png
-[pagedev]: ../assets/pagedev.png
+[pagestruct]: /assets/pagestruct.png
+[pagedev]: /assets/pagedev.png

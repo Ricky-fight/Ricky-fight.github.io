@@ -78,8 +78,8 @@ print(b.join(a))
 非常有用！！作用是处理英语句子或者具有类似url格式的字符串时非常方便！
 ![][split]
 
-[str1]: ../assets/string1.png
-[str2]: ../assets/string2.png
-[center]: ../assets/center.png
-[join]: ../assets/join.png
-[split]: ../assets/split.png
+[str1]: /assets/string1.png
+[str2]: /assets/string2.png
+[center]: /assets/center.png
+[join]: /assets/join.png
+[split]: /assets/split.png
