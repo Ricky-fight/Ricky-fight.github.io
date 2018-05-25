@@ -74,7 +74,7 @@ tags: python
 ```python
 import zmail
 def mail(url, title):
-    server = zmail.server('18918735979@163.com', 'xw64153869')
+    server = zmail.server('18918735979@163.com', 'xxxxxx')
 
     mail = {
                 'subject': '教务处有新公告:%s' %(title),
