@@ -111,6 +111,31 @@ True
 >>> x is z
 False
 ```
+### in 成员资格检查
+`a in b`用来检查a是否是b的成员，比如列表的元素，比如字符串的字符，比如字典的键值对...
+
+### assert 断言
+`assert condition`用来要求某些条件一定要得到满足，不然就立即崩溃，用来保证程序的正确运行。
+
+### 循环
+格式：
+#### while
+```python
+while {condition}:
+    # code ...
+```
+#### for
+如果要循环指定次数的话：
+```python
+for i in range(n):
+   # code ...
+```
+也可以更灵活地使用：
+```python
+for a in b:
+    # code ...
+```
+*b必须是可迭代对象。*
 
 [cp1]: /assets/compare1.png
 [cp2]: /assets/compare2.png
